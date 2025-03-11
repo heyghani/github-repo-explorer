@@ -1,46 +1,89 @@
-# Getting Started with Create React App
+GitHub Repository Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that allows users to search for GitHub users and view their profiles using the GitHub API.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Search for GitHub users by username
 
-### `npm start`
+Display a list of matched users
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+View user details including username and list of repository
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Redux Toolkit for state management
 
-### `npm test`
+Integration tests using Jest and React Testing Library
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Tech Stack
 
-### `npm run build`
+Frontend: React, TypeScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+State Management: Redux Toolkit
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Testing: Jest, React Testing Library, Redux Mock Store
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📦 Installation
 
-### `npm run eject`
+Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+git clone https://github.com/heyghani/github-repo-explorer.git
+cd github-repo-explorer
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm install
+# or
+yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🔥 Usage
 
-## Learn More
+Start the development server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run dev
+# or
+yarn dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open http://localhost:3000 in your browser.
+
+🧪 Running Tests
+
+To run the test suite:
+
+npm test
+# or
+yarn test
+
+Test Coverage
+
+To check code coverage:
+
+npm test -- --coverage
+# or
+yarn test --coverage
+
+📂 Project Structure
+
+├── src
+│   ├── components          # UI components (SearchForm, ListUser, etc.)
+│   ├── store               # Redux slices and store configuration
+│   ├── utils               # Helper functions
+│   ├── tests               # Test utilities and mocks
+│   ├── types               # Interfaces
+│   ├── App.tsx             # Root component
+│   ├── index.tsx           # React entry point
+│
+├── package.json            # Project dependencies and scripts
+├── README.md               # Project documentation
+
+📜 API Reference
+
+The app fetches data from the GitHub API:
+
+GET https://api.github.com/search/users?q={username} - Search users
+GET https://api.github.com/search/users/{username}/repos - Fetch user repositories
+
+
+📄 License
+
+This project is licensed under the MIT License.
+
