@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/heyghani/github-repo-explorer.git/static/css/main.2e217be8.css",
-    "main.js": "/heyghani/github-repo-explorer.git/static/js/main.ca0858be.js",
-    "static/js/453.ad05c8a0.chunk.js": "/heyghani/github-repo-explorer.git/static/js/453.ad05c8a0.chunk.js",
-    "index.html": "/heyghani/github-repo-explorer.git/index.html",
-    "main.2e217be8.css.map": "/heyghani/github-repo-explorer.git/static/css/main.2e217be8.css.map",
-    "main.ca0858be.js.map": "/heyghani/github-repo-explorer.git/static/js/main.ca0858be.js.map",
-    "453.ad05c8a0.chunk.js.map": "/heyghani/github-repo-explorer.git/static/js/453.ad05c8a0.chunk.js.map"
+    "main.css": "/github-repo-explorer/static/css/main.2e217be8.css",
+    "main.js": "/github-repo-explorer/static/js/main.2c2ecdd8.js",
+    "static/js/453.ad05c8a0.chunk.js": "/github-repo-explorer/static/js/453.ad05c8a0.chunk.js",
+    "index.html": "/github-repo-explorer/index.html",
+    "main.2e217be8.css.map": "/github-repo-explorer/static/css/main.2e217be8.css.map",
+    "main.2c2ecdd8.js.map": "/github-repo-explorer/static/js/main.2c2ecdd8.js.map",
+    "453.ad05c8a0.chunk.js.map": "/github-repo-explorer/static/js/453.ad05c8a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e217be8.css",
-    "static/js/main.ca0858be.js"
+    "static/js/main.2c2ecdd8.js"
   ]
 }
