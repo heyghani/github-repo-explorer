@@ -2,7 +2,7 @@
   "name": "github-repo-explorer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/heyghani/github-repo-explorer.git",
+  "homepage": "https://heyghani.github.io/github-repo-explorer/",
   "dependencies": {
     "@hookform/resolvers": "^4.1.3",
     "@reduxjs/toolkit": "^2.6.1",
