@@ -2,12 +2,12 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { GitHubUser, Repository } from "../types/User";
 
-interface GitHubState {
+export interface GitHubState {
   users: GitHubUser[];
   repositories: Record<string, Repository[]>;
-  isLoadingUser: boolean;
-  isLoadingRepo: boolean;
-  error: string | null;
+  isLoadingUser?: boolean;
+  isLoadingRepo?: boolean;
+  error?: string | null;
 }
 
 const initialState: GitHubState = {
