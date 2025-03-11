@@ -27,6 +27,7 @@ Testing: Jest, React Testing Library, Redux Mock Store
 Clone the repository
 
 git clone https://github.com/heyghani/github-repo-explorer.git
+
 cd github-repo-explorer
 
 Install dependencies
