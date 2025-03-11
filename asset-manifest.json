@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/heyghani/github-repo-explorer.git/static/css/main.2e217be8.css",
+    "main.js": "/heyghani/github-repo-explorer.git/static/js/main.ca0858be.js",
+    "static/js/453.ad05c8a0.chunk.js": "/heyghani/github-repo-explorer.git/static/js/453.ad05c8a0.chunk.js",
+    "index.html": "/heyghani/github-repo-explorer.git/index.html",
+    "main.2e217be8.css.map": "/heyghani/github-repo-explorer.git/static/css/main.2e217be8.css.map",
+    "main.ca0858be.js.map": "/heyghani/github-repo-explorer.git/static/js/main.ca0858be.js.map",
+    "453.ad05c8a0.chunk.js.map": "/heyghani/github-repo-explorer.git/static/js/453.ad05c8a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e217be8.css",
+    "static/js/main.ca0858be.js"
+  ]
+}
