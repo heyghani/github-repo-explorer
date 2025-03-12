@@ -45,7 +45,7 @@ Open http://localhost:3000 in your browser.
      # or
      yarn test
   ```
-**Test Coverage: To check code coverage:**
+**To check code coverage:**
   ```sh
      npm test -- --coverage
      # or
