@@ -52,7 +52,7 @@ Open http://localhost:3000 in your browser.
      yarn test --coverage
   ```
 
-## Api Reference
+## API Reference
 
 Search users: ``GET https://api.github.com/search/users?q={username}``
 
